@@ -6,9 +6,9 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "192.168.100.81:8081"
-        NEXUS_REPOSITORY = "kcmaven-snapshot"
-        NEXUS_CREDENTIAL_ID = "NEXUS_CRED"
+        NEXUS_URL = "52.221.186.213:8081"
+        NEXUS_REPOSITORY = "hello-world"
+        NEXUS_CREDENTIAL_ID = "NEXUS_ID"
     }
     stages {
         stage("GitHub") {
